@@ -1,0 +1,16 @@
+$authors: "ana", "guille", "laura";
+@each $author in $authors {
+  .photo-#{$author} {
+    background: url("../img/#{$author}.jpg") no-repeat center;
+    width: 100%;
+    height: 50vh;
+    opacity: 0.9;
+  }
+}
+
+$authors: "ana", "guille", "laura";
+@each $author in $authors {
+  .photo-#{$author}:hover {
+    opacity: 1;
+  }
+}

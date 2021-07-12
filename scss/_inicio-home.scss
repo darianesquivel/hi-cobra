@@ -1,0 +1,113 @@
+.section1 {
+  height: $fullheight;
+  width: $fullwidth;
+}
+
+.section1__video-bk {
+  object-fit: cover;
+  height: $fullheight;
+  width: $fullwidth;
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: column-reverse;
+  color: #ffffff;
+  animation-duration: 2s;
+  animation-name: my-animation;
+  animation-iteration-count: infinite;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.section2 {
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.section2__container {
+  display: flex;
+  align-items: center;
+}
+
+.section2__somos-cobra {
+  height: 50vh;
+  justify-content: center;
+  padding: 30px;
+}
+
+.section2__texto {
+  padding: 30px;
+  font-size: 2rem;
+}
+
+.section2__somos-cobra {
+  text-transform: uppercase;
+}
+
+.section2__somos {
+  font-size: 4rem;
+  transform: rotate(-5deg);
+}
+
+.section2__cobra {
+  font-size: 12rem;
+  font-weight: 800;
+}
+
+.section2__contbra {
+  font-size: 3rem;
+}
+
+.section3 {
+  background-color: black;
+  height: 60vh;
+}
+
+.gallery {
+  padding: 50px;
+}
+
+.gallery .text-center h2 {
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.gallery figure {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #272727;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gallery figure img {
+  position: relative;
+  display: block;
+  opacity: 0.8;
+}
+
+.gallery figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.gallery figure figcaption::before,
+.gallery figure figcaption::after {
+  pointer-events: none;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

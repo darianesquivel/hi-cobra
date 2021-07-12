@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+$red: red;
+$bigfont: 10rem;
+$mediumfont: 5rem;
+$smallfont: 1rem;
+$fullheight: 100vh;
+$fullwidth: 100%;
+
+.h2__torcido {
+  color: #ffffff;
+  font-size: $bigfont;
+  text-transform: uppercase;
+  transform: rotate(-5deg);
+  font-weight: 700;
+}
+
+.h2__torcido--rojo {
+  color: $red;
+}
+
+.h2__torcido--contra {
+  transform: rotate(4deg);
+}
+
+.texto-normal {
+  font-size: 2rem;
+}
