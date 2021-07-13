@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/darianesquivel/hi-cobra#readme",
   "dependencies": {
-    "boostrap": "^2.0.0"
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.1.0"
   }
 }
