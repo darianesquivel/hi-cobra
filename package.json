@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/darianesquivel/hi-cobra/issues"
   },
-  "homepage": "https://github.com/darianesquivel/hi-cobra#readme"
+  "homepage": "https://github.com/darianesquivel/hi-cobra#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
 }
