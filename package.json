@@ -1,0 +1,20 @@
+{
+  "name": "hi-cobra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cobraSass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darianesquivel/hi-cobra.git"
+  },
+  "author": "Darian Esquivel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darianesquivel/hi-cobra/issues"
+  },
+  "homepage": "https://github.com/darianesquivel/hi-cobra#readme"
+}
