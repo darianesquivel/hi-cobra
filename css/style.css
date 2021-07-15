@@ -370,11 +370,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 66.6666666667vh;
+    height: 70vh;
   }
 
   .section1-contacto__formulario {
-    width: 66.6666666667%;
+    width: 70%;
   }
 
   .texto-normal {
