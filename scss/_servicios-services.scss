@@ -1,4 +1,13 @@
+.section-bannerServicios {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/fondo3.jpg);
+  align-items: center;
+  text-align: center;
+}
+
 .section1-servicios {
-  height: $height;
-  width: $width;
+  height: 100vh;
+  width: 100%;
 }

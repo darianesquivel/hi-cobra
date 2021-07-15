@@ -217,7 +217,7 @@ header {
   display: flex;
   height: 100vh;
   width: 100%;
-  background-color: black;
+  background-image: url(../img/fondo2.jpg);
   align-items: center;
   text-align: center;
 }
@@ -294,6 +294,20 @@ header {
   margin-top: auto;
 }
 
+.section-bannerServicios {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/fondo3.jpg);
+  align-items: center;
+  text-align: center;
+}
+
+.section1-servicios {
+  height: 100vh;
+  width: 100%;
+}
+
 .section1-contacto {
   display: flex;
   justify-content: space-between;
@@ -309,6 +323,15 @@ header {
   font-size: 4rem;
   width: 50%;
   height: 50vh;
+}
+
+.section-bannerContacto {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/fondo5.jpg);
+  align-items: center;
+  text-align: center;
 }
 
 .photo-ana {
@@ -342,6 +365,15 @@ header {
 
 .photo-laura:hover {
   opacity: 1;
+}
+
+.section-bannerNosotros {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/fondo4.jpg);
+  align-items: center;
+  text-align: center;
 }
 
 @media (max-width: 992px) {

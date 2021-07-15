@@ -14,3 +14,13 @@ $authors: "ana", "guille", "laura";
     opacity: 1;
   }
 }
+
+.section-bannerNosotros {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/fondo4.jpg);
+
+  align-items: center;
+  text-align: center;
+}
