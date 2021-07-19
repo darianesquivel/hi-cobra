@@ -517,6 +517,19 @@ header {
     height: 40vh;
   }
 
+  .section2__somos {
+    font-size: 3rem;
+  }
+
+  .section2__cobra {
+    font-size: 9rem;
+    font-weight: 800;
+  }
+
+  .section2__contbra {
+    font-size: 2rem;
+  }
+
   .section1-contacto {
     display: flex;
     flex-direction: column;
