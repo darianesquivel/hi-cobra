@@ -28,19 +28,16 @@
 }
 
 .section2__container {
+  height: 50vh;
   display: flex;
   align-items: center;
-}
-
-.section2__somos-cobra {
-  height: 50vh;
-  justify-content: center;
-  padding: 30px;
+  justify-content: space-between;
 }
 
 .section2__texto {
-  padding: 30px;
+  width: 50%;
   font-size: 2rem;
+  padding: 10px;
 }
 
 .section2__somos-cobra {
@@ -62,6 +59,9 @@
 }
 
 .section3 {
+  display: flex;
+
+  align-items: center;
   background-color: black;
   height: 60vh;
 }

@@ -4,15 +4,14 @@
   }
 
   .section2 {
-    flex-direction: column;
-  }
+    height: 60vh;
+    display: flex;
 
-  .section2 {
-    height: 70vh;
+    align-items: center;
   }
 
   .section2__container {
-    display: flex;
+    height: 50vh;
     flex-direction: column;
   }
 
@@ -30,6 +29,11 @@
   }
 
   .section2__contbra {
+    font-size: 2rem;
+  }
+
+  .section2__texto {
+    width: 100%;
     font-size: 2rem;
   }
 
@@ -80,8 +84,12 @@
 }
 
 @media (max-width: 550px) {
-  .section2__somos {
-    font-size: 2rem;
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .section2 {
+    height: 55vh;
   }
 
   .section2__cobra {
@@ -89,11 +97,8 @@
     font-weight: 800;
   }
 
-  .section2__contbra {
-    font-size: 1rem;
-  }
-
   .section2__texto {
+    width: 80%;
     font-size: 1.5rem;
   }
 }
