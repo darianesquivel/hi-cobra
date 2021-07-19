@@ -479,23 +479,26 @@ header {
 
 .photo-ana {
   background: url("../img/ana.jpg") no-repeat center;
-  width: 100%;
+  width: 97%;
   height: 50vh;
   opacity: 0.9;
+  display: flex;
 }
 
 .photo-guille {
   background: url("../img/guille.jpg") no-repeat center;
-  width: 100%;
+  width: 97%;
   height: 50vh;
   opacity: 0.9;
+  display: flex;
 }
 
 .photo-laura {
   background: url("../img/laura.jpg") no-repeat center;
-  width: 100%;
+  width: 97%;
   height: 50vh;
   opacity: 0.9;
+  display: flex;
 }
 
 .photo-ana:hover {
@@ -508,6 +511,11 @@ header {
 
 .photo-laura:hover {
   opacity: 1;
+}
+
+.section1-nosotros__fundadores {
+  width: 100%;
+  align-items: center;
 }
 
 .section-bannerNosotros {
