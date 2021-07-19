@@ -82,6 +82,10 @@
   .serv3__container {
     align-items: center;
   }
+
+  .section4__img {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 550px) {

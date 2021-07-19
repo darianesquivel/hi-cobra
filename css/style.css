@@ -192,15 +192,17 @@ header {
 }
 
 .gallery figure {
+  border-radius: 10px;
   position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
-  background: #272727;
+  background: #000000dc;
   text-align: center;
   cursor: pointer;
 }
 
 .gallery figure img {
+  border-radius: 10px;
   position: relative;
   display: block;
   opacity: 0.8;
@@ -592,6 +594,10 @@ header {
 
   .serv3__container {
     align-items: center;
+  }
+
+  .section4__img {
+    flex-direction: column;
   }
 }
 @media (max-width: 550px) {
