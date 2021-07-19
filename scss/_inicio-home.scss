@@ -66,6 +66,17 @@
   height: 52vh;
 }
 
+.section4 {
+  display: flex;
+  align-content: center;
+}
+
+.section4__container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
 .gallery {
   padding: 50px;
 }
