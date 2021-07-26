@@ -3,16 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="INDEX,FOLLOW" />
     <meta
       name="description"
       content="Somos una agencia de Marketing y Comunicación Argentina que crea experiencias únicas y a medida para cada cliente."
     />
     <meta
       name="keywords"
-      content="marketing, creativity, interactive, website, ideas, branding, digital, 360, desing, agency"
+      content="marketing, creatividad, interactivo, sitios web, ideas, branding, digital, 360, diseño, agencia"
     />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap"
@@ -32,7 +34,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
-            ><img src="../img/logocobra.png" alt="cobra logo"
+            ><img src="../img/logocobra.png" alt="logo cobra"
           /></a>
           <button
             class="navbar-toggler"
@@ -84,32 +86,34 @@
       </div>
     </header>
     <main>
-      <section class="section1">
+      <section class="section-bannerInicio">
         <video
-          class="section1__video-bk"
+          class="section-bannerInicio__video"
           src="../img/bkprincipal.mp4"
           autoplay
           loop
           muted
         ></video>
       </section>
-      <section class="section2 text-center">
-        <div class="section2__container d-flex container align-items-center">
-          <div class="section2__somos-cobra text-center d-flex flex-column">
-            <h3 class="section2__somos">We Are</h3>
-            <h3 class="section2__cobra">Cobra</h3>
-            <h3 class="section2__contbra">Content & Branding</h3>
-          </div>
 
-          <p class="section2__texto text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-            voluptatibus temporibus, quidem rem debitis voluptatem minus
-            veritatis aperiam, vero ab accusantium nemo? Quo natus, labore
-            assumenda earum quia nam aperiam!
+      <section class="section1-inicio text-center">
+        <div class="section1-inicio__container container">
+          <div
+            class="section1-inicio__somos-cobra text-center d-flex flex-column"
+          >
+            <h3 class="section1-inicio__somos">We are</h3>
+            <h3 class="section1-inicio__cobra">Cobra</h3>
+            <h3 class="section1-inicio__contbra">Content & Branding</h3>
+          </div>
+          <p class="section1-inicio__texto text-center">
+            We are an Argentine Marketing and Communication agency that creates
+            unique and tailor-made experiences for each client. We work so hard
+            locally and internationally, creating and promoting brands.
           </p>
         </div>
       </section>
-      <section class="section3">
+
+      <section class="section2-inicio">
         <div
           id="carouselExampleCaptions"
           class="carousel slide container"
@@ -140,25 +144,34 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
+                <h5 class="texto-grande__negrita texto-borde">
+                  Each brand has its identity
+                </h5>
+                <p class="texto-grande">
+                  We accompany you to discover it, improve it and develop it.
                 </p>
               </div>
             </div>
             <div class="carousel-item carousel__item--background-img2">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
+                <h5 class="texto-grande__negrita">
+                  We are the moments that we live
+                </h5>
+                <p class="texto-grande">
+                  We create unique experiences. We have the best suppliers and
+                  producers to cover your event.
                 </p>
               </div>
             </div>
             <div class="carousel-item carousel__item--background-img3">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
+                <h5 class="texto-grande__negrita">
+                  Custom content. Creativity at hand
+                </h5>
+                <p class="texto-grande">
+                  Today the average user has access to over 2000 posts! but only
+                  pay attention to 20%. We generate the content you need to
+                  stand out and get noticed of all.
                 </p>
               </div>
             </div>
@@ -183,19 +196,21 @@
           </button>
         </div>
       </section>
-      <section class="section4 justify-content-center">
-        <div class="gallery section4__container">
-          <div class="text-center">
-            <h3 class="texto-normal">
-              De lo TRADICIONAL a lo DIGITAL & Everything in between!
+
+      <section class="section3-inicio justify-content-center">
+        <div class="gallery section3-inicio__container">
+          <div class="text-center section3-inicio__texto">
+            <h3 class="texto-grande__negrita">
+              From TRADITIONAL to DIGITAL & Everything in between!
             </h3>
             <p class="texto-normal">
-              Somos CREATIVOS, perceptivos e ingeniosos Somos comerciales,
-              meticulosos y ESTRATÉGICOS Somos ESPECIALISTAS cada uno en su
-              Disciplina & Arte
+              We are CREATIVE, perceptive and resourceful We are commercial,
+              meticulous and STRATEGIC We are SPECIALISTS each one in their
+              Discipline & Art
             </p>
           </div>
-          <div class="section4__img container d-flex gap-2">
+
+          <div class="section3-inicio__img d-flex gap-5">
             <div>
               <figure class="effect-marley">
                 <img
@@ -203,9 +218,9 @@
                   alt="ciudad de noche"
                   class="img-responsive"
                 />
-                <figcaption>
-                  <p class="texto-normal">
-                    Lorem ipsum dolor sit amet consectetur.
+                <figcaption class="h2__torcido">
+                  <p class="texto-grande">
+                    We are CREATIVE, perceptive and resourceful
                   </p>
                 </figcaption>
               </figure>
@@ -217,9 +232,9 @@
                   alt="hombre cantando"
                   class="img-responsive"
                 />
-                <figcaption>
-                  <p class="texto-normal">
-                    Lorem ipsum dolor sit amet consectetur.
+                <figcaption class="h2__torcido">
+                  <p class="texto-grande">
+                    We are commercial, meticulous and STRATEGIC
                   </p>
                 </figcaption>
               </figure>
@@ -231,9 +246,9 @@
                   alt="hombre con paraguas"
                   class="img-responsive"
                 />
-                <figcaption>
-                  <p class="texto-normal">
-                    Lorem ipsum dolor sit amet consectetur.
+                <figcaption class="h2__torcido">
+                  <p class="texto-grande">
+                    We are SPECIALISTS each one in their Discipline & Art
                   </p>
                 </figcaption>
               </figure>
@@ -241,22 +256,33 @@
           </div>
         </div>
       </section>
-      <section class="section5 container"></section>
     </main>
     <footer class="footer d-flex flex-column text-center p-2">
-      <p class="footer__copy">© Copyright 2001 - All rights reserved</p>
+      <p class="footer__copy">© Copyright 2021 - All rights reserved</p>
       <div class="footer__redes">
         <a href="https://www.facebook.com/"
-          ><img class="footer__iconos" src="../img/facelogo.png" alt=""
+          ><img
+            class="footer__iconos"
+            src="../img/facelogo.png"
+            alt="logo facebook"
         /></a>
         <a href="https://www.instagram.com/"
-          ><img class="footer__iconos" src="../img/instalogo.png" alt=""
+          ><img
+            class="footer__iconos"
+            src="../img/instalogo.png"
+            alt="logo instagram"
         /></a>
         <a href="https://www.twitter.com/"
-          ><img class="footer__iconos" src="../img/twlogo.png" alt=""
+          ><img
+            class="footer__iconos"
+            src="../img/twlogo.png"
+            alt="logo twitter"
         /></a>
         <a href="https://www.whatsapp.com/"
-          ><img class="footer__iconos" src="../img/wsplogo.png" alt=""
+          ><img
+            class="footer__iconos"
+            src="../img/wsplogo.png"
+            alt="logo whatsapp"
         /></a>
       </div>
     </footer>
