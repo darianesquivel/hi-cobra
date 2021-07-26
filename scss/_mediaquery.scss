@@ -1,40 +1,50 @@
+@media (max-width: 1400px) {
+  .section3-inicio__img {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 992px) {
   .h2__torcido {
     font-size: $mediumfont;
   }
 
-  .section2 {
+  .section1-inicio {
     height: 60vh;
     display: flex;
 
     align-items: center;
   }
 
-  .section2__container {
+  .section1-inicio__container {
     height: 50vh;
     flex-direction: column;
   }
 
-  .section2__somos-cobra {
+  .section1-inicio__somos-cobra {
     height: 40vh;
   }
 
-  .section2__somos {
+  .section1-inicio__somos {
     font-size: 3rem;
   }
 
-  .section2__cobra {
+  .section1-inicio__cobra {
     font-size: 9rem;
     font-weight: 800;
   }
 
-  .section2__contbra {
+  .section1-inicio__contbra {
     font-size: 2rem;
   }
 
-  .section2__texto {
+  .section1-inicio__texto {
     width: 100%;
     font-size: 2rem;
+  }
+
+  .section3-inicio__texto {
+    width: 90%;
   }
 
   .section1-contacto {
@@ -93,16 +103,16 @@
     width: 100px;
   }
 
-  .section2 {
+  .section1-inicio {
     height: 60vh;
   }
 
-  .section2__cobra {
+  .section1-inicio__cobra {
     font-size: 7rem;
     font-weight: 800;
   }
 
-  .section2__texto {
+  .section1-inicio__texto {
     width: 80%;
     font-size: 1.5rem;
   }

@@ -27,6 +27,25 @@
   font-weight: 600;
 }
 
+.texto-grande {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.texto-grande__negrita {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.texto-negro {
+  color: #ad0a0a;
+}
+
+.texto-borde {
+  -webkit-text-stroke: 1px #9e1919;
+  color: #ce1414;
+}
+
 header {
   position: absolute;
   width: 100%;
@@ -112,17 +131,6 @@ header {
   background-image: url(../img/trabajando.jpg);
 }
 
-.section1 {
-  height: 100vh;
-  width: 100%;
-}
-
-.section1__video-bk {
-  object-fit: cover;
-  height: 100vh;
-  width: 100%;
-}
-
 .scroll-down {
   display: flex;
   flex-direction: column-reverse;
@@ -134,65 +142,82 @@ header {
   font-size: 2rem;
 }
 
-.section2 {
+.section-bannerInicio {
+  height: 100vh;
+  width: 100%;
+}
+
+.section-bannerInicio__video {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.section1-inicio {
   height: 50vh;
   width: 100%;
   background-color: black;
   color: white;
 }
 
-.section2__container {
+.section1-inicio__container {
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.section2__texto {
+.section1-inicio__texto {
   width: 50%;
   font-size: 2rem;
   padding: 10px;
 }
 
-.section2__somos-cobra {
+.section1-inicio__somos-cobra {
   justify-content: center;
   text-transform: uppercase;
 }
 
-.section2__somos {
+.section1-inicio__somos {
   font-size: 4rem;
   transform: rotate(-5deg);
 }
 
-.section2__cobra {
+.section1-inicio__cobra {
   font-size: 12rem;
   font-weight: 800;
 }
 
-.section2__contbra {
+.section1-inicio__contbra {
   font-size: 3rem;
 }
 
-.section3 {
+.section2-inicio {
   display: flex;
   align-items: center;
   background-color: black;
-  height: 52vh;
+  height: 70vh;
 }
 
-.section4 {
+.section3-inicio {
   display: flex;
   align-content: center;
+  padding: 50px;
 }
 
-.section4__container {
+.section3-inicio__container {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  align-items: center;
+  width: 73%;
 }
 
-.gallery {
-  padding: 50px;
+.section3-inicio__texto {
+  width: 70%;
+}
+
+.section3-inicio__img p {
+  color: red;
 }
 
 .gallery .text-center h2 {
@@ -540,42 +565,51 @@ header {
   text-align: center;
 }
 
+@media (max-width: 1400px) {
+  .section3-inicio__img {
+    flex-direction: column;
+  }
+}
 @media (max-width: 992px) {
   .h2__torcido {
     font-size: 5rem;
   }
 
-  .section2 {
+  .section1-inicio {
     height: 60vh;
     display: flex;
     align-items: center;
   }
 
-  .section2__container {
+  .section1-inicio__container {
     height: 50vh;
     flex-direction: column;
   }
 
-  .section2__somos-cobra {
+  .section1-inicio__somos-cobra {
     height: 40vh;
   }
 
-  .section2__somos {
+  .section1-inicio__somos {
     font-size: 3rem;
   }
 
-  .section2__cobra {
+  .section1-inicio__cobra {
     font-size: 9rem;
     font-weight: 800;
   }
 
-  .section2__contbra {
+  .section1-inicio__contbra {
     font-size: 2rem;
   }
 
-  .section2__texto {
+  .section1-inicio__texto {
     width: 100%;
     font-size: 2rem;
+  }
+
+  .section3-inicio__texto {
+    width: 90%;
   }
 
   .section1-contacto {
@@ -635,16 +669,16 @@ header {
     width: 100px;
   }
 
-  .section2 {
+  .section1-inicio {
     height: 60vh;
   }
 
-  .section2__cobra {
+  .section1-inicio__cobra {
     font-size: 7rem;
     font-weight: 800;
   }
 
-  .section2__texto {
+  .section1-inicio__texto {
     width: 80%;
     font-size: 1.5rem;
   }
