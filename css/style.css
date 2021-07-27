@@ -32,9 +32,8 @@
   font-weight: 500;
 }
 
-.texto-grande__negrita {
-  font-size: 3rem;
-  font-weight: 800;
+.texto-negrita {
+  font-weight: 700;
 }
 
 .texto-negro {
@@ -44,6 +43,18 @@
 .texto-borde {
   -webkit-text-stroke: 1px #9e1919;
   color: #ce1414;
+}
+
+.sombra {
+  box-shadow: 2px 2px 5px black;
+}
+
+.sombra-texto {
+  text-shadow: 2px 2px 2px black;
+}
+
+.mayus {
+  text-transform: uppercase;
 }
 
 header {
