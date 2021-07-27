@@ -63,3 +63,11 @@ $fullwidth: 100%;
 .mayus {
   text-transform: uppercase;
 }
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
