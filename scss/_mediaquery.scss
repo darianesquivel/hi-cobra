@@ -77,6 +77,11 @@
     font-size: 4rem;
     font-weight: 800;
   }
+
+  .texto-muygrande {
+    font-size: 4rem;
+    font-weight: 800;
+  }
 }
 
 @media (max-width: 550px) {
@@ -115,5 +120,10 @@
     li {
       font-size: 1rem;
     }
+  }
+
+  .texto-muygrande {
+    font-size: 3rem;
+    font-weight: 800;
   }
 }

@@ -480,7 +480,6 @@ header {
 }
 
 .photo-ana {
-  background: url("../img/ana.jpg") no-repeat center;
   width: 100%;
   height: 50vh;
   opacity: 0.9;
@@ -489,7 +488,6 @@ header {
 }
 
 .photo-guille {
-  background: url("../img/guille.jpg") no-repeat center;
   width: 100%;
   height: 50vh;
   opacity: 0.9;
@@ -498,7 +496,6 @@ header {
 }
 
 .photo-laura {
-  background: url("../img/laura.jpg") no-repeat center;
   width: 100%;
   height: 50vh;
   opacity: 0.9;
@@ -508,18 +505,21 @@ header {
 
 .photo-ana:hover {
   opacity: 1;
+  background: url("../img/ana.jpg") no-repeat center;
 }
 
 .photo-guille:hover {
   opacity: 1;
+  background: url("../img/guille.jpg") no-repeat center;
 }
 
 .photo-laura:hover {
   opacity: 1;
+  background: url("../img/laura.jpg") no-repeat center;
 }
 
 .nosotros__txt {
-  width: 80%;
+  width: 100%;
   text-align: center;
   padding: 30px;
 }
@@ -615,6 +615,11 @@ header {
     font-size: 4rem;
     font-weight: 800;
   }
+
+  .texto-muygrande {
+    font-size: 4rem;
+    font-weight: 800;
+  }
 }
 @media (max-width: 550px) {
   .navbar-brand img {
@@ -650,6 +655,11 @@ header {
   }
   .serv1__tabla li {
     font-size: 1rem;
+  }
+
+  .texto-muygrande {
+    font-size: 3rem;
+    font-weight: 800;
   }
 }
 @keyframes my-animation {
