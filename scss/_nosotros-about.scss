@@ -2,10 +2,11 @@ $authors: "ana", "guille", "laura";
 @each $author in $authors {
   .photo-#{$author} {
     background: url("../img/#{$author}.jpg") no-repeat center;
-    width: 97%;
+    width: 100%;
     height: 50vh;
     opacity: 0.9;
     display: flex;
+    border-radius: 100px;
   }
 }
 
@@ -14,6 +15,12 @@ $authors: "ana", "guille", "laura";
   .photo-#{$author}:hover {
     opacity: 1;
   }
+}
+
+.nosotros__txt {
+  width: 80%;
+  text-align: center;
+  padding: 30px;
 }
 
 .section1-nosotros__fundadores {
