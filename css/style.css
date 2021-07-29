@@ -480,6 +480,7 @@ header {
 }
 
 .photo-ana {
+  background-color: slategrey;
   width: 100%;
   height: 50vh;
   opacity: 0.9;
@@ -488,6 +489,7 @@ header {
 }
 
 .photo-guille {
+  background-color: slategrey;
   width: 100%;
   height: 50vh;
   opacity: 0.9;
@@ -496,6 +498,7 @@ header {
 }
 
 .photo-laura {
+  background-color: slategrey;
   width: 100%;
   height: 50vh;
   opacity: 0.9;
@@ -505,16 +508,19 @@ header {
 
 .photo-ana:hover {
   opacity: 1;
+  transition: 1s;
   background: url("../img/ana.jpg") no-repeat center;
 }
 
 .photo-guille:hover {
   opacity: 1;
+  transition: 1s;
   background: url("../img/guille.jpg") no-repeat center;
 }
 
 .photo-laura:hover {
   opacity: 1;
+  transition: 1s;
   background: url("../img/laura.jpg") no-repeat center;
 }
 
