@@ -29,6 +29,14 @@ $fullwidth: 100%;
   font-weight: 700;
 }
 
+.h4__torcido {
+  color: #ffffff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  transform: rotate(-5deg);
+  font-weight: 700;
+}
+
 .h2__torcido--rojo {
   color: $red;
 }
@@ -83,4 +91,8 @@ $fullwidth: 100%;
 
 .zoom:hover {
   transform: scale(1.1);
+}
+
+.blanco {
+  color: white;
 }
