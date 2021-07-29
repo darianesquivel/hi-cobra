@@ -21,6 +21,14 @@ $fullwidth: 100%;
   font-weight: 700;
 }
 
+.h3__torcido {
+  color: #ffffff;
+  font-size: $mediumfont;
+  text-transform: uppercase;
+  transform: rotate(-5deg);
+  font-weight: 700;
+}
+
 .h2__torcido--rojo {
   color: $red;
 }
@@ -69,5 +77,5 @@ $fullwidth: 100%;
 }
 
 .zoom:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }

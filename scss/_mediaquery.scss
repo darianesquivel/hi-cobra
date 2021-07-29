@@ -63,38 +63,14 @@
     font-weight: 700;
   }
 
-  .section1-servicios {
-    height: 100vh;
-    width: 100%;
+  .h3__torcido {
+    font-size: 2.5rem;
   }
 
-  .serv1__palabras {
-    text-align: center;
-    font-size: 4rem;
-  }
-  .serv2__palabras {
-    text-align: center;
-    font-size: 4rem;
-  }
-  .serv3__palabras {
-    text-align: center;
-    font-size: 4rem;
-  }
-
-  .serv1__container {
-    align-items: center;
-  }
-
-  .serv2__container {
-    align-items: center;
-  }
-
-  .serv3__container {
-    align-items: center;
-  }
-
-  .section4__img {
-    flex-direction: column;
+  .serv1__txt {
+    li {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -115,5 +91,24 @@
   .section1-inicio__texto {
     width: 80%;
     font-size: 1.5rem;
+  }
+
+  .h3__torcido {
+    font-size: 2rem;
+  }
+
+  .serv1__tabla {
+    tr {
+      width: 100%;
+      padding: 15px;
+      margin: 5px;
+      align-content: center;
+    }
+    td {
+      width: 90%;
+    }
+    li {
+      font-size: 1rem;
+    }
   }
 }
