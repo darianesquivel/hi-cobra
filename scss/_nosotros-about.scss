@@ -1,9 +1,9 @@
 $authors: "ana", "guille", "laura";
 @each $author in $authors {
   .photo-#{$author} {
-    // background-color: rgb(14, 13, 13);
-    width: 30%;
-    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 50vh;
     opacity: 0.9;
     display: flex;
   }

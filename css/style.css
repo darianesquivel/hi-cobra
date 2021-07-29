@@ -492,8 +492,9 @@ header {
 }
 
 .photo-ana {
-  width: 30%;
-  height: 10vh;
+  background-color: white;
+  width: 50%;
+  height: 50vh;
   opacity: 0.9;
   display: flex;
 }
@@ -508,8 +509,9 @@ header {
 }
 
 .photo-guille {
-  width: 30%;
-  height: 10vh;
+  background-color: white;
+  width: 50%;
+  height: 50vh;
   opacity: 0.9;
   display: flex;
 }
@@ -524,8 +526,9 @@ header {
 }
 
 .photo-laura {
-  width: 30%;
-  height: 10vh;
+  background-color: white;
+  width: 50%;
+  height: 50vh;
   opacity: 0.9;
   display: flex;
 }
