@@ -493,8 +493,8 @@ header {
 
 .photo-ana {
   background-color: white;
-  width: 50%;
-  height: 50vh;
+  width: 40%;
+  height: 20vh;
   opacity: 0.9;
   display: flex;
 }
@@ -502,7 +502,7 @@ header {
 .photo-ana:hover {
   opacity: 1;
   transition: 1s;
-  background: url("../img/ana.jpg") no-repeat center;
+  background: url("../img/ana.jpg") no-repeat;
   height: 50vh;
   object-fit: cover;
   object-fit: contain;
@@ -510,8 +510,8 @@ header {
 
 .photo-guille {
   background-color: white;
-  width: 50%;
-  height: 50vh;
+  width: 40%;
+  height: 20vh;
   opacity: 0.9;
   display: flex;
 }
@@ -519,7 +519,7 @@ header {
 .photo-guille:hover {
   opacity: 1;
   transition: 1s;
-  background: url("../img/guille.jpg") no-repeat center;
+  background: url("../img/guille.jpg") no-repeat;
   height: 50vh;
   object-fit: cover;
   object-fit: contain;
@@ -527,8 +527,8 @@ header {
 
 .photo-laura {
   background-color: white;
-  width: 50%;
-  height: 50vh;
+  width: 40%;
+  height: 20vh;
   opacity: 0.9;
   display: flex;
 }
@@ -536,7 +536,7 @@ header {
 .photo-laura:hover {
   opacity: 1;
   transition: 1s;
-  background: url("../img/laura.jpg") no-repeat center;
+  background: url("../img/laura.jpg") no-repeat;
   height: 50vh;
   object-fit: cover;
   object-fit: contain;
@@ -549,6 +549,7 @@ header {
 }
 
 .section1-nosotros__fundadores {
+  height: 60vh;
   width: 100%;
   align-items: center;
 }
@@ -643,6 +644,11 @@ header {
   .texto-muygrande {
     font-size: 4rem;
     font-weight: 800;
+  }
+
+  .section1-nosotros__fundadores {
+    flex-direction: column;
+    height: 80vh;
   }
 }
 @media (max-width: 550px) {

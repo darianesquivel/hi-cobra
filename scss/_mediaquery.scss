@@ -82,6 +82,11 @@
     font-size: 4rem;
     font-weight: 800;
   }
+
+  .section1-nosotros__fundadores {
+    flex-direction: column;
+    height: 80vh;
+  }
 }
 
 @media (max-width: 550px) {
