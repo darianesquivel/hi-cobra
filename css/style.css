@@ -426,11 +426,11 @@ header {
 }
 .serv1__tabla tr {
   width: 100%;
-  background-color: #0e0d0d;
+  background-color: #0c0a0a;
   border-radius: 40px;
-  display: flex;
   padding: 30px;
   margin: 10px;
+  display: flex;
 }
 .serv1__tabla td {
   width: 100%;
@@ -492,54 +492,48 @@ header {
 }
 
 .photo-ana {
-  background-color: white;
-  width: 40%;
-  height: 20vh;
-  opacity: 0.9;
+  background-color: #bebebe;
+  object-fit: cover;
+  width: 250px;
+  height: 35vh;
+  border-radius: 5px;
   display: flex;
 }
 
 .photo-ana:hover {
   opacity: 1;
   transition: 1s;
-  background: url("../img/ana.jpg") no-repeat;
-  height: 50vh;
-  object-fit: cover;
-  object-fit: contain;
+  background: url("../img/ana.jpg") center no-repeat;
 }
 
 .photo-guille {
-  background-color: white;
-  width: 40%;
-  height: 20vh;
-  opacity: 0.9;
+  background-color: #bebebe;
+  object-fit: cover;
+  width: 250px;
+  height: 35vh;
+  border-radius: 5px;
   display: flex;
 }
 
 .photo-guille:hover {
   opacity: 1;
   transition: 1s;
-  background: url("../img/guille.jpg") no-repeat;
-  height: 50vh;
-  object-fit: cover;
-  object-fit: contain;
+  background: url("../img/guille.jpg") center no-repeat;
 }
 
 .photo-laura {
-  background-color: white;
-  width: 40%;
-  height: 20vh;
-  opacity: 0.9;
+  background-color: #bebebe;
+  object-fit: cover;
+  width: 250px;
+  height: 35vh;
+  border-radius: 5px;
   display: flex;
 }
 
 .photo-laura:hover {
   opacity: 1;
   transition: 1s;
-  background: url("../img/laura.jpg") no-repeat;
-  height: 50vh;
-  object-fit: cover;
-  object-fit: contain;
+  background: url("../img/laura.jpg") center no-repeat;
 }
 
 .nosotros__txt {
@@ -552,6 +546,7 @@ header {
   height: 60vh;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .section-bannerNosotros {

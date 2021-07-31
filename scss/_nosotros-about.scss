@@ -1,20 +1,18 @@
 $authors: "ana", "guille", "laura";
 @each $author in $authors {
   .photo-#{$author} {
-    background-color: rgb(255, 255, 255);
-    width: 40%;
-    height: 20vh;
-    opacity: 0.9;
+    background-color: rgb(190, 190, 190);
+    object-fit: cover;
+    width: 250px;
+    height: 35vh;
+    border-radius: 5px;
     display: flex;
   }
 
   .photo-#{$author}:hover {
     opacity: 1;
     transition: 1s;
-    background: url("../img/#{$author}.jpg") no-repeat;
-    height: 50vh;
-    object-fit: cover;
-    object-fit: contain;
+    background: url("../img/#{$author}.jpg") center no-repeat;
   }
 }
 
@@ -28,6 +26,7 @@ $authors: "ana", "guille", "laura";
   height: 60vh;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .section-bannerNosotros {
