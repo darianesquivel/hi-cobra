@@ -502,6 +502,17 @@ header {
   display: flex;
 }
 
+.section-bannerNosotros {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/fondo4.jpg);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+}
+
 .photo-ana {
   background-color: #bebebe;
   object-fit: cover;
@@ -553,22 +564,15 @@ header {
   padding: 30px;
 }
 
+.ocultar:hover {
+  display: none;
+}
+
 .section1-nosotros__fundadores {
   height: 60vh;
   width: 100%;
   align-items: center;
   justify-content: center;
-}
-
-.section-bannerNosotros {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  background-image: url(../img/fondo4.jpg);
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  text-align: center;
 }
 
 @media (max-width: 1400px) {
@@ -654,7 +658,7 @@ header {
 
   .section1-nosotros__fundadores {
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
   }
 }
 @media (max-width: 550px) {
@@ -701,6 +705,14 @@ header {
   .texto-grande {
     font-size: 1.5rem;
     font-weight: 500;
+  }
+
+  .h4__torcido {
+    font-size: 1rem;
+  }
+
+  .texto-normal {
+    font-size: 1rem;
   }
 }
 @keyframes my-animation {
