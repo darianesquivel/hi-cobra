@@ -50,12 +50,15 @@
   .section1-contacto {
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 70vh;
   }
 
   .section1-contacto__formulario {
-    width: 70%;
+    width: 100%;
+  }
+
+  .section1-contacto__mapa {
+    width: 100%;
   }
 
   .texto-normal {

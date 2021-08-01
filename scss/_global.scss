@@ -37,6 +37,14 @@ $fullwidth: 100%;
   font-weight: 700;
 }
 
+.p__torcido {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  transform: rotate(-5deg);
+  font-weight: 700;
+}
+
 .h2__torcido--rojo {
   color: $red;
 }
@@ -65,7 +73,7 @@ $fullwidth: 100%;
 }
 
 .texto-negro {
-  color: rgb(173, 10, 10);
+  color: rgb(0, 0, 0);
 }
 
 .texto-borde {
